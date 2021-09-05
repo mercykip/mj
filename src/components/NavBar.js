@@ -17,7 +17,7 @@ class NavBar extends Component {
                             {/* <Link to="/resume">Resume</Link> */}
                             <Link to="/portfolio-deploy">About</Link>
                             <Link to="/blogs">Blogs</Link>
-                            <Link to="/projects">Projects</Link>
+
                             <Link to="/contact">Contact</Link>
 
 
@@ -32,17 +32,17 @@ class NavBar extends Component {
                             {/* <Link to="/resume" style={{ color: "white" }}>Resume</Link> */}
                             <Link to="/portfolio-deploy" style={{ color: "white" }}>About</Link>
                             <Link to="/blogs" style={{ color: "white" }}>Blogs</Link>
-                            <Link to="/projects" style={{ color: "white" }}> Projects</Link>
+
                             <Link to="/contact" style={{ color: "white" }}>Contact</Link>
-                        </Navigation>
-                    </Drawer>
+                        </Navigation >
+                    </Drawer >
 
                     <Content>
                         <div className="page-content" />
                         <Main />
                     </Content>
-                </Layout>
-            </div>
+                </Layout >
+            </div >
         );
     }
 
