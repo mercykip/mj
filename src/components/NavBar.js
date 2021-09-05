@@ -32,7 +32,6 @@ class NavBar extends Component {
                             {/* <Link to="/resume" style={{ color: "white" }}>Resume</Link> */}
                             <Link to="/portfolio-deploy" style={{ color: "white" }}>About</Link>
                             <Link to="/blogs" style={{ color: "white" }}>Blogs</Link>
-
                             <Link to="/contact" style={{ color: "white" }}>Contact</Link>
                         </Navigation >
                     </Drawer >
