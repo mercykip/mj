@@ -34,15 +34,15 @@ class NavBar extends Component {
                             <Link to="/blogs" style={{ color: "white" }}>Blogs</Link>
                             <Link to="/projects" style={{ color: "white" }}> Projects</Link>
                             <Link to="/contact" style={{ color: "white" }}>Contact</Link>
-                        </Navigation>
-                    </Drawer>
+                        </Navigation >
+                    </Drawer >
 
                     <Content>
                         <div className="page-content" />
                         <Main />
                     </Content>
-                </Layout>
-            </div>
+                </Layout >
+            </div >
         );
     }
 
